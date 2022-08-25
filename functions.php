@@ -7,9 +7,18 @@
  * 
  */
 
+
+// Set the default path
+if (!defined('AQUILA_DIR_PATH')){
+    define('AQUILA_DIR_PATH', untrailingslashit(get_template_directory()));
+}
+
+// Add autoloader
+require_once AQUILA_DIR_PATH . '/inc/helpers/autoloader.php';
+
 // DEBUG TOOL
 //echo '<pre>';
-//print_r(get_template_directory_uri());
+//print_r(AQUILA_DIR_PATH);
 //wp_die();
 
 // Load our scripts
