@@ -15,6 +15,8 @@ namespace AQUILA_THEME\Inc\Helpers;
  * @return void
  */
 function autoloader( $resource = '' ) {
+    //echo "running_autoloader, $resource<br>" ;
+
     $resource_path  = false;
     $namespace_root = 'AQUILA_THEME\\';
     $resource       = trim( $resource, '\\' );
