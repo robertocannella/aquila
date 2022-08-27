@@ -10,7 +10,7 @@ $header_menus = wp_get_nav_menu_items($header_menu_id);
 
 ?>
 
-<nav class="navbar navbar-expand-md bg-white">
+<nav class="navbar navbar-expand-lg bg-white">
     <div class="container-fluid">
 
             <?php
