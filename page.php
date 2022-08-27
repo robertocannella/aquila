@@ -1,17 +1,17 @@
 <?php
 /**
- * Main template file.
- * 
+ * Page template file.
+ *
  * @package Aquila
- * 
+ *
  */
 
 get_header(); // We can specify different headers as a parameter
- ?>
-<div class="content">
+?>
+	<div class="content">
 
-    Content Blog
-</div>
+		Single Page
+	</div>
 
 <?php
 get_footer( );
